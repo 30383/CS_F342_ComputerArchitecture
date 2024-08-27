@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb  1 15:19:37 2024
+# Process ID: 44284
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1
+# Command line: vivado
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/vivado.log
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project Mux16_1 /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1 -part xc7z020clg484-1
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+file mkdir /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.srcs/sources_1/new
+close [ open /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.v w ]
+add_files /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.v
+update_compile_order -fileset sources_1
+file mkdir /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.srcs/sim_1/new/mux16_1_tb.v w ]
+add_files -fileset sim_1 /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.srcs/sim_1/new/mux16_1_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+launch_simulation
+source mux16_1_tb.tcl
+close_sim
+close_project
+create_project decoder3_8 /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8 -part xc7z020clg484-1
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+close_project
+open_project /home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/Mux16_1/Mux16_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.xpr
+file mkdir /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.srcs/sources_1/new
+close [ open /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.srcs/sources_1/new/decoder3_8.v w ]
+add_files /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.srcs/sources_1/new/decoder3_8.v
+update_compile_order -fileset sources_1
+file mkdir /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.srcs/sim_1/new/decoder3_8_tb.v w ]
+add_files -fileset sim_1 /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.srcs/sim_1/new/decoder3_8_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+source decoder3_8_tb.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source decoder3_8_tb.tcl
+close_sim
+launch_simulation
+source majckt_tb.tcl
+close_sim
+launch_simulation
+close_project
+open_project /home/24CAP1G13/Desktop/CA_P1_G13/experiment_2/decoder3_8/decoder3_8.xpr
+update_compile_order -fileset sources_1
+launch_simulation

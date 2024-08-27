@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sim_1/new/tb.v,1712822784,verilog,,,,tb,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/Count_reg.v,1712774716,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/MAIN_ADDER.v,,Count_reg,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/MAIN_ADDER.v,1712774710,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/REG.v,,MAIN_ADDER,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/REG.v,1712771956,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/SUM.v,,REG,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/SUM.v,1712772204,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/Top_module.v,,SUM,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/Top_module.v,1712774445,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/adder_module.v,,Top_module,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/adder_module.v,1712786982,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/buffer.v,,adder_module;fa,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/buffer.v,1712787720,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/comp.v,,buffer,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/comp.v,1712772289,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/d_ff.v,,comp,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sources_1/new/d_ff.v,1712870217,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/FPGA assignment/Assignment_1/Assignment_1.srcs/sim_1/new/tb.v,,d_ff;d_latch,,,,,,,,

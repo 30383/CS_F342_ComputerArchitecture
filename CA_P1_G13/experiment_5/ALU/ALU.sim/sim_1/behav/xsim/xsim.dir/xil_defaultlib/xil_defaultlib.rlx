@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sim_1/new/ALU_control_tb.v,1708597834,verilog,,,,ALU_control_tb,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sim_1/new/ALU_tb.v,1708791926,verilog,,,,ALU_tb,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v,1708595977,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sim_1/new/ALU_tb.v,,ALU;ALUadd;ALUand;ALUor;ALUsub,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU_control.v,1708790508,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sim_1/new/ALU_control_tb.v,,ALU_control,,,,,,,,

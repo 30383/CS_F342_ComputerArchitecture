@@ -1,0 +1,287 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan 18 16:36:14 2024
+# Process ID: 91830
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13
+# Command line: vivado
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/vivado.log
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eeesoft/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 7564.500 ; gain = 51.363 ; free physical = 433457 ; free virtual = 484056
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module something
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_of_something
+INFO: [VRFC 10-2458] undeclared symbol A, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol B, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'y' on this module [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module something
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_of_something
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.something
+Compiling module xil_defaultlib.test_of_something
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_of_something_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/test_of_something_behav/webtalk/xsim_webtalk.tcl -notrace
+extra characters after close-quote
+    while executing
+"webtalk_add_data -client project -key os_release -value "NAME="Red Hat Enterprise Linux Server"" -context "user_environment"
+webtalk_add_data -client ..."
+    (file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/test_of_something_behav/webtalk/xsim_webtalk.tcl" line 19)
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 18 16:38:45 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_of_something_behav -key {Behavioral:sim_1:Functional:test_of_something} -tclbatch {test_of_something.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source test_of_something.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_of_something_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 8718.859 ; gain = 1085.297 ; free physical = 432297 ; free virtual = 482912
+run all
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_of_something_behav -key {Behavioral:sim_1:Functional:test_of_something} -tclbatch {test_of_something.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source test_of_something.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_of_something_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8718.859 ; gain = 0.000 ; free physical = 432040 ; free virtual = 482683
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_of_something_behav -key {Behavioral:sim_1:Functional:test_of_something} -tclbatch {test_of_something.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source test_of_something.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_of_something_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8718.859 ; gain = 0.000 ; free physical = 433189 ; free virtual = 483820
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module something
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_of_something
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.something
+Compiling module xil_defaultlib.test_of_something
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_of_something_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_of_something_behav -key {Behavioral:sim_1:Functional:test_of_something} -tclbatch {test_of_something.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source test_of_something.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 40 ns : File "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" Line 34
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_of_something_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8718.859 ; gain = 0.000 ; free physical = 433152 ; free virtual = 483790
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 18 16:52:30 2024...

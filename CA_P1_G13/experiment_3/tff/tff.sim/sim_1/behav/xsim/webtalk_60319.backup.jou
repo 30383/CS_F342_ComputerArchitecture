@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 14 21:58:03 2024
+# Process ID: 60319
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/tff/tff.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/tff/tff.sim/sim_1/behav/xsim/xsim.dir/tff_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/tff/tff.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/tff/tff.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/tff/tff.sim/sim_1/behav/xsim/xsim.dir/tff_tb_behav/webtalk/xsim_webtalk.tcl -notrace

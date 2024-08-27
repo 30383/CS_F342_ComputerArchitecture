@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 26 18:32:13 2024
+# Process ID: 90416
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13
+# Command line: vivado
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/vivado.log
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/24CAP1G13/CA_Assignment_2/CA_Assignment_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config /home/24CAP1G13/CA_Assignment_2/TOP_MODULE_tb_behav.wcfg
+source TOP_MODULE_tb.tcl
+relaunch_sim

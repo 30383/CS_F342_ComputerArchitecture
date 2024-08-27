@@ -1,0 +1,258 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 20 02:41:36 2024
+# Process ID: 102907
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.runs/synth_1
+# Command line: vivado -log MCP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MCP.tcl
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.runs/synth_1/MCP.vds
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source MCP.tcl -notrace
+Command: synth_design -top MCP -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 103074
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2516.367 ; gain = 0.000 ; free physical = 456471 ; free virtual = 501942
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MCP' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MCP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC_src_mux' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/PC_src_mux.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/PC_src_mux.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'PC_src_mux' (1#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/PC_src_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (2#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mem_src_mux' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Mem_src_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Mem_src_mux' (3#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Mem_src_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MEMORY' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MEMORY.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MEMORY' (4#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MEMORY.v:23]
+INFO: [Synth 8-6157] synthesizing module 'INSTRREG' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/INSTRREG.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'INSTRREG' (5#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/INSTRREG.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MDR' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MDR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MDR' (6#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MDR.v:23]
+INFO: [Synth 8-6157] synthesizing module 'wd_mux' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/wd_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'wd_mux' (7#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/wd_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rd_mux' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/rd_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rd_mux' (8#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/rd_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REGFILE' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/REGFILE.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REGFILE' (9#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/REGFILE.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG_A' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/REG_A.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG_A' (10#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/REG_A.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG_B' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/REG_B.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG_B' (11#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/REG_B.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SIGNEXT' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/SIGNEXT.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SIGNEXT' (12#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/SIGNEXT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_a_mux' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/alu_a_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu_a_mux' (13#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/alu_a_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_b_mux' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/alu_b_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu_b_mux' (14#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/alu_b_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU_control' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_control' (15#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU_control.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'operation' does not match port width (2) of module 'ALU_control' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MCP.v:61]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:54]
+INFO: [Synth 8-6157] synthesizing module 'ALUor' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'ALUor' (16#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:29]
+INFO: [Synth 8-6157] synthesizing module 'ALUsub' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'ALUsub' (17#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:45]
+INFO: [Synth 8-6157] synthesizing module 'ALUand' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ALUand' (18#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:21]
+INFO: [Synth 8-6157] synthesizing module 'ALUadd' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ALUadd' (19#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:37]
+WARNING: [Synth 8-567] referenced signal 'r3' should be on the sensitivity list [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:66]
+WARNING: [Synth 8-567] referenced signal 'r1' should be on the sensitivity list [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:66]
+WARNING: [Synth 8-567] referenced signal 'r4' should be on the sensitivity list [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:66]
+WARNING: [Synth 8-567] referenced signal 'r2' should be on the sensitivity list [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (20#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v:54]
+WARNING: [Synth 8-689] width (4) of port connection 'control' does not match port width (2) of module 'ALU' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MCP.v:62]
+INFO: [Synth 8-6157] synthesizing module 'REG_ALU_out' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/ALU_result.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG_ALU_out' (21#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/ALU_result.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Jump_calc' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Jump_calc.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Jump_calc' (22#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Jump_calc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Main_control' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Main_control.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Main_control.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'Main_control' (23#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/Main_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MCP' (24#1) [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MCP.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2516.367 ; gain = 0.000 ; free physical = 457258 ; free virtual = 502719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2516.367 ; gain = 0.000 ; free physical = 457256 ; free virtual = 502720
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2524.254 ; gain = 7.887 ; free physical = 457256 ; free virtual = 502720
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'nstate_reg' in module 'Main_control'
+WARNING: [Synth 8-327] inferring latch for variable 'PC_next_reg' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/PC_src_mux.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'MemData_reg' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/MEMORY.v:34]
+WARNING: [Synth 8-327] inferring latch for variable 'INSTRUCTION_reg' [/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.srcs/sources_1/new/INSTRREG.v:38]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                            00001 |                              001
+                 iSTATE3 |                            00010 |                              010
+                 iSTATE1 |                            00100 |                              011
+                 iSTATE2 |                            01000 |                              100
+                  iSTATE |                            10000 |                              000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'nstate_reg' using encoding 'one-hot' in module 'Main_control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 457138 ; free virtual = 502612
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 39    
+	                8 Bit    Registers := 50    
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 48    
+	   4 Input    8 Bit        Muxes := 29    
+	   2 Input    5 Bit        Muxes := 2     
+	   5 Input    5 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 5     
+	   5 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 13    
+	   2 Input    1 Bit        Muxes := 79    
+	   5 Input    1 Bit        Muxes := 40    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456992 ; free virtual = 502463
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456988 ; free virtual = 502462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456988 ; free virtual = 502462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502464
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2524.266 ; gain = 7.898 ; free physical = 456983 ; free virtual = 502463
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2524.266 ; gain = 0.000 ; free physical = 457068 ; free virtual = 502548
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2527.219 ; gain = 0.000 ; free physical = 456980 ; free virtual = 502460
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 2527.219 ; gain = 10.969 ; free physical = 457124 ; free virtual = 502604
+INFO: [Common 17-1381] The checkpoint '/home/24CAP1G13/Desktop/CA_P1_G13/MCP/project_1/project_1.runs/synth_1/MCP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MCP_utilization_synth.rpt -pb MCP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 20 02:42:10 2024...

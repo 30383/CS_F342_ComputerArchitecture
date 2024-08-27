@@ -1,0 +1,37 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto e6209bc10f2547bf9e738d43b718f40c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCP_tb_behav xil_defaultlib.MCP_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC_src_mux
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Mem_src_mux
+Compiling module xil_defaultlib.MEMORY
+Compiling module xil_defaultlib.INSTRREG
+Compiling module xil_defaultlib.MDR
+Compiling module xil_defaultlib.wd_mux
+Compiling module xil_defaultlib.rd_mux
+Compiling module xil_defaultlib.REGFILE
+Compiling module xil_defaultlib.REG_A
+Compiling module xil_defaultlib.REG_B
+Compiling module xil_defaultlib.SIGNEXT
+Compiling module xil_defaultlib.alu_a_mux
+Compiling module xil_defaultlib.alu_b_mux
+Compiling module xil_defaultlib.ALU_control
+Compiling module xil_defaultlib.ALUor
+Compiling module xil_defaultlib.ALUsub
+Compiling module xil_defaultlib.ALUand
+Compiling module xil_defaultlib.ALUadd
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_ALU_out
+Compiling module xil_defaultlib.Jump_calc
+Compiling module xil_defaultlib.Main_control
+Compiling module xil_defaultlib.MCP
+Compiling module xil_defaultlib.MCP_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCP_tb_behav

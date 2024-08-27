@@ -1,0 +1,26 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sim_1/new/MCP_tb.v,1711116800,verilog,,,,MCP_tb,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/ALU_result.v,1709767229,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/INSTRREG.v,,REG_ALU_out,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/INSTRREG.v,1710880477,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/Jump_calc.v,,INSTRREG,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/Jump_calc.v,1709770380,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/MCP.v,,Jump_calc,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/MCP.v,1711041465,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/MDR.v,,MCP,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/MDR.v,1709765620,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/MEMORY.v,,MDR,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/MEMORY.v,1710989829,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/Main_control.v,,MEMORY,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/Main_control.v,1711042187,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/Mem_src_mux.v,,Main_control,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/Mem_src_mux.v,1710871779,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/PC.v,,Mem_src_mux,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/PC.v,1710856102,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/PC_src_mux.v,,PC,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/PC_src_mux.v,1710871763,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/REGFILE.v,,PC_src_mux,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/REGFILE.v,1711116746,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/REG_A.v,,REGFILE,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/REG_A.v,1709766958,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/REG_B.v,,REG_A,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/REG_B.v,1709768987,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/SIGNEXT.v,,REG_B,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/SIGNEXT.v,1710879040,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/alu_a_mux.v,,SIGNEXT,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/alu_a_mux.v,1710871902,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/alu_b_mux.v,,alu_a_mux,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/alu_b_mux.v,1710871904,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/rd_mux.v,,alu_b_mux,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/rd_mux.v,1710871921,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/wd_mux.v,,rd_mux,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/wd_mux.v,1710871924,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sim_1/new/MCP_tb.v,,wd_mux,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU.v,1710853242,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU_control.v,,ALU;ALUadd;ALUand;ALUor;ALUsub,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_5/ALU/ALU.srcs/sources_1/new/ALU_control.v,1711016080,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/MCP/Assignment_1_MCP/project_1.srcs/sources_1/new/ALU_result.v,,ALU_control,,,,,,,,

@@ -1,0 +1,193 @@
+
+*** Running vivado
+    with args -log fsm_moore.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm_moore.tcl
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source fsm_moore.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2422.746 ; gain = 2.023 ; free physical = 452203 ; free virtual = 499666
+Command: synth_design -top fsm_moore -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 62958
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2422.859 ; gain = 0.000 ; free physical = 449847 ; free virtual = 497310
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fsm_moore' [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/fsm/fsm.srcs/sources_1/new/fsm_moore.v:23]
+	Parameter zero bound to: 0 - type: integer 
+	Parameter one bound to: 1 - type: integer 
+	Parameter two bound to: 2 - type: integer 
+	Parameter three bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fsm_moore' (1#1) [/home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/fsm/fsm.srcs/sources_1/new/fsm_moore.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 2422.859 ; gain = 0.000 ; free physical = 451203 ; free virtual = 498668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 2422.859 ; gain = 0.000 ; free physical = 451152 ; free virtual = 498618
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 2430.750 ; gain = 7.891 ; free physical = 451134 ; free virtual = 498599
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm_moore'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    zero |                               00 |                               00
+                     one |                               01 |                               01
+                     two |                               10 |                               10
+                   three |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'fsm_moore'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:24 . Memory (MB): peak = 2430.762 ; gain = 7.902 ; free physical = 450998 ; free virtual = 498465
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:58 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449739 ; free virtual = 497227
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:58 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449708 ; free virtual = 497195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:59 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449770 ; free virtual = 497257
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:01:02 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449550 ; free virtual = 497038
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:01:03 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449551 ; free virtual = 497040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:01:03 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449538 ; free virtual = 497027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:01:03 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449507 ; free virtual = 496996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:01:04 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449498 ; free virtual = 496988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:01:04 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449490 ; free virtual = 496979
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     1|
+|3     |LUT3 |     2|
+|4     |FDRE |     2|
+|5     |IBUF |     2|
+|6     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     9|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:01:06 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449583 ; free virtual = 497073
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:01:06 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449576 ; free virtual = 497067
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:01:06 . Memory (MB): peak = 2433.719 ; gain = 10.859 ; free physical = 449576 ; free virtual = 497066
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2442.621 ; gain = 0.000 ; free physical = 449647 ; free virtual = 497138
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2578.336 ; gain = 0.000 ; free physical = 449519 ; free virtual = 497011
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:01:12 . Memory (MB): peak = 2578.336 ; gain = 155.590 ; free physical = 449824 ; free virtual = 497311
+INFO: [Common 17-1381] The checkpoint '/home/24CAP1G13/Desktop/CA_P1_G13/experiment_3/fsm/fsm.runs/synth_1/fsm_moore.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fsm_moore_utilization_synth.rpt -pb fsm_moore_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 15 16:12:31 2024...

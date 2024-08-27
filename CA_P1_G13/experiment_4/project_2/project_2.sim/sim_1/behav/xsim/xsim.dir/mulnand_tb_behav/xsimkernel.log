@@ -1,0 +1,7 @@
+Running: xsim.dir/mulnand_tb_behav/xsimk -simmode gui -wdb mulnand_tb_behav.wdb -simrunnum 0 -socket 43907
+Design successfully loaded
+Design Loading Memory Usage: 73060 KB (Peak: 73180 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 154800 KB (Peak: 212332 KB)
+Simulation CPU Usage: 20 ms

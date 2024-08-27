@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 15 15:56:44 2024
+# Process ID: 39060
+# Current directory: /home/24CAP1G13/mux16to1/mux16to1.runs/synth_1
+# Command line: vivado -log mux161.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux161.tcl
+# Log file: /home/24CAP1G13/mux16to1/mux16to1.runs/synth_1/mux161.vds
+# Journal file: /home/24CAP1G13/mux16to1/mux16to1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mux161.tcl -notrace

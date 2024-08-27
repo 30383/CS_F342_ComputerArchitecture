@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan 18 15:37:28 2024
+# Process ID: 45509
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13
+# Command line: vivado
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/vivado.log
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /home/24CAP1G13/Desktop/CA_P1_G13/project_1 -part xc7z020clg484-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eeesoft/Xilinx/Vivado/2020.2/data/ip'.
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:02:10 . Memory (MB): peak = 7588.816 ; gain = 64.141 ; free physical = 434927 ; free virtual = 483242
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+file mkdir /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new
+close [ open /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v w ]
+add_files /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v
+update_compile_order -fileset sources_1
+file mkdir /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v w ]
+add_files -fileset sim_1 /home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module something
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_of_something
+INFO: [VRFC 10-2458] undeclared symbol A, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol B, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'y' on this module [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'y' on this module [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module something
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_of_something
+INFO: [VRFC 10-2458] undeclared symbol A, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol B, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'y' on this module [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_of_something' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_of_something_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sources_1/new/something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module something
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_of_something
+INFO: [VRFC 10-2458] undeclared symbol A, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol B, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+INFO: [VRFC 10-2458] undeclared symbol Y, assumed default net type wire [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim'
+xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /eeesoft/Xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto b3a93cf2614341288d804494d47c0b5f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_of_something_behav xil_defaultlib.test_of_something xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'y' on this module [/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.srcs/sim_1/new/test_of_something.v:26]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/24CAP1G13/Desktop/CA_P1_G13/project_1/project_1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 18 16:35:05 2024...

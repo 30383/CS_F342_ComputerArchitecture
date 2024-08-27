@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Feb 21 20:55:46 2024
+# Process ID: 126671
+# Current directory: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.runs/synth_1
+# Command line: vivado -log ripplecarry.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ripplecarry.tcl
+# Log file: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.runs/synth_1/ripplecarry.vds
+# Journal file: /home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ripplecarry.tcl -notrace

@@ -1,0 +1,3 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 800 ns : File "/home/24CAP1G13/Desktop/CA_P1_G13/experiment_1/comp3bit/comp3bit.srcs/sim_1/new/cmp_gate_tb.v" Line 110

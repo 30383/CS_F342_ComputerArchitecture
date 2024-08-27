@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.srcs/sim_1/new/fulladder_tb.v,1708522229,verilog,,,,fulladder_tb,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.srcs/sim_1/new/ripplecarry.v,1708528896,verilog,,/home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.srcs/sim_1/new/ripplecarry_tb.v,,full_adder;ripplecarry,,,,,,,,
+/home/24CAP1G13/Desktop/CA_P1_G13/experiment_4/ripplecarry/ripplecarry.srcs/sim_1/new/ripplecarry_tb.v,1708524831,verilog,,,,ripplecarry_tb,,,,,,,,
